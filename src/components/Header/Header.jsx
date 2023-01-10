@@ -1,26 +1,27 @@
-import React from 'react'
-import { Container } from 'reactstrap'
+import React from 'react';
+import { Container } from 'reactstrap';
+import './Header.css';
 
 const navLinks = [
     {
-        display: 'Home',
-        url: '#home'
+        display: 'Inicio',
+        url: '#inicio'
     },
     {
-        display: 'About',
-        url: '#about'
+        display: 'Perfil',
+        url: '#perfil'
     },
     {
-        display: 'Services',
-        url: '#services'
+        display: 'Experiencia',
+        url: '#experiencia'
     },
     {
-        display: 'Portfolio',
-        url: '#portfolio'
+        display: 'Proyectos',
+        url: '#proyectos'
     },
     {
-        display: 'Contact',
-        url: '#contact'
+        display: 'Contacto',
+        url: '#contacto'
     }
 ]
 
@@ -45,7 +46,7 @@ const Header = () => {
                         }
                     </ul>
                 </div>
-                <div className="nav__rigth">
+                <div className="nav__right d-flex align-items-center gap-4">
                     <button className="btn">Let's Talk</button>
                     <span className="mobile__menu"><i class="ri-menu-5-line"></i></span>
                 </div>

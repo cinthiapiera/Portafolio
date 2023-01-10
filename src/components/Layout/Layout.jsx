@@ -1,11 +1,15 @@
-import React, { Fragment } from 'react'
-import Header from '../Header/Header'
+import React, { Fragment } from 'react';
+import Header from '../Header/Header';
+import HeroSection from '../HeroSection/HeroSection';
 
 const Layout = () => {
-  return
-  <Fragment>
-    <Header/>
-  </Fragment>
+  return(
+    <Fragment> 
+      <Header/>
+      <HeroSection/>
+    </Fragment>
+  )
+  
 }
 
 export default Layout;
