@@ -31,7 +31,7 @@ const Header = () => {
         <Container>
             <div className="navigation d-flex align-items-center justify-content-between">
                 <div className="logo">
-                    <h5>Cinthia Maldonado</h5>
+                    <h5>['Cinthia Maldonado']</h5>
                 </div>
                 <div className="nav__menu">
                     <ul className="nav__list">
