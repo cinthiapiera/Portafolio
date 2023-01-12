@@ -1,8 +1,8 @@
 .perfil__btns {
-    /* background: #102048; */
+    background: #102048;
     /* background: #0f1626; */
     /* background: #0E1831; */
-    background: #2a9250;
+    /* background: #2a9250; */
     /* background: #f5f5f5; */
     border-radius: 10px;
 }
@@ -27,7 +27,29 @@
     border-radius: 0px 0px 5px 5px;
 }
 
-.perfil__content_wrapper {
-    /* background: #132347; */
+.perfil__content__wrapper {
+    background: #132347;
     padding: 20px;
 }
+
+.perfil__content h3{
+    margin-bottom: 15px;
+}
+
+.perfil__content p{
+    line-height: 20px;
+    font-weight: 200;
+}
+
+.social__links span a i{
+    color: #d1a249;
+}
+
+.perfil__img{
+    /* background: white; */
+}
+
+.social__links span{
+    margin-right: 10px;
+}
+
