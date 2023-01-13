@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useState} from 'react';
 import './About.css';
 import { Container, Row, Col } from 'reactstrap';
 import perfil from '../../assests/perfil.png';
+import Education from './Education';
+import Skills from './Skills';
 
 const About = () => {
+    const [perfilFilter, setPerfilFilter] = useState('PERFIL');
   return (
     <section id='perfil'>
         <Container>
@@ -13,14 +16,15 @@ const About = () => {
                 </Col>
                 <Col lg='4' md='3'>
                     <div className="perfil__btns d-flex flex-column align-items-center">
-                        <button className="perfil__btn perfil__btn-active ">Perfil</button>
-                        <button className="perfil__btn">Educación</button>
-                        <button className="perfil__btn">Habilidades Blandas</button>
-                        <button className="perfil__btn">Certificaciones</button>
+                        <button className="perfil__btn perfil__btn-active" onClick={()=>setPerfilFilter('PERFIL')}>Perfil</button>
+                        <button className="perfil__btn" onClick={()=>setPerfilFilter('EDUCACION')}>Educación</button>
+                        <button className="perfil__btn" onClick={()=>setPerfilFilter('SKILLS')}>Habilidades Blandas</button>
+                        <button className="perfil__btn" >Certificaciones</button>
                     </div>
                 </Col>
                 <Col lg='8' md='9'>
-                    <div className="perfil__content__wrapper d-flex gap-5">
+                    {
+                        perfilFilter === 'PERFIL' &&  <div className="perfil__content__wrapper d-flex gap-5">
                         <div className="perfil__img w-25">
                             <img src={perfil} alt="" className='w-100'/>
                         </div>
@@ -28,7 +32,7 @@ const About = () => {
                             <h3>Cinthia Maldonado</h3>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas amet quis ut modi commodi nemo incidunt! Maiores, voluptates? Aut doloremque ipsam nesciunt excepturi corporis atque labore.</p>
                             <div className="social__links">
-                                <h6 className='mb-4'>Contactame por:</h6>
+                                <h6 className='mb-3'>Contactame por:</h6>
                                 <span><a href="#f"><i class="ri-facebook-box-fill"></i></a></span>
                                 <span><a href="#g"><i class="ri-github-line"></i></a></span>
                                 <span><a href="#l"><i class="ri-linkedin-box-fill"></i></a></span>
@@ -36,6 +40,13 @@ const About = () => {
                             </div>
                         </div>
                     </div>
+                    }
+                    {
+                        perfilFilter === 'EDUCACION' && <Education/>
+                    }
+                    {
+                        perfilFilter === 'SKILLS' && <Skills/>
+                    }
                 </Col>
             </Row>
         </Container>

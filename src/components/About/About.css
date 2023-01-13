@@ -29,7 +29,8 @@
 
 .perfil__content__wrapper {
     background: #132347;
-    padding: 20px;
+    padding: 30px;
+    border-radius: 10px;
 }
 
 .perfil__content h3{
@@ -46,7 +47,9 @@
 }
 
 .perfil__img{
-    /* background: white; */
+    background: #d1a249;
+    border-radius: 10px;
+    height: 185px;
 }
 
 .social__links span{
