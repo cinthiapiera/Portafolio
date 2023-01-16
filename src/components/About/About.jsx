@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 import perfil from '../../assests/perfil.png';
 import Education from './Education';
 import Skills from './Skills';
+import Award from './Award';
 
 const About = () => {
     const [perfilFilter, setPerfilFilter] = useState('PERFIL');
@@ -19,7 +20,7 @@ const About = () => {
                         <button className="perfil__btn perfil__btn-active" onClick={()=>setPerfilFilter('PERFIL')}>Perfil</button>
                         <button className="perfil__btn" onClick={()=>setPerfilFilter('EDUCACION')}>Educación</button>
                         <button className="perfil__btn" onClick={()=>setPerfilFilter('SKILLS')}>Habilidades Blandas</button>
-                        <button className="perfil__btn" >Certificaciones</button>
+                        <button className="perfil__btn" onClick={()=>setPerfilFilter('AWARD')}>Certificaciones</button>
                     </div>
                 </Col>
                 <Col lg='8' md='9'>
@@ -46,6 +47,9 @@ const About = () => {
                     }
                     {
                         perfilFilter === 'SKILLS' && <Skills/>
+                    }
+                    {
+                        perfilFilter === 'AWARD' && <Award/>
                     }
                 </Col>
             </Row>

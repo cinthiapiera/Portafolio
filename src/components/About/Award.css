@@ -1,0 +1,22 @@
+/* .award__container{
+    padding: 20px;
+} */
+
+.single__award{
+    background: #132347;
+    padding: 20px;
+    border-radius: 5px;
+    border-bottom: 1px solid #7665FF;
+}
+
+.award__title span{
+    font-weight: 300 !important;
+    color: #fff;
+    opacity: 70% !important;
+    font-size: 0.8rem;
+}
+
+.award__year{
+    color: #fff;
+    margin-bottom: 15px;
+}
