@@ -1,6 +1,10 @@
 /* .award__container{
     padding: 20px;
 } */
+.award__item{
+    width: 47%;
+    margin-bottom: 20px;
+}
 
 .single__award{
     background: #132347;

@@ -6,6 +6,7 @@
     top: 0;
     left: 0;
     z-index: 1;
+    background: #0f1626;
 }
 
 .logo h5{
@@ -58,7 +59,7 @@
     display: none;
 }
 
-/* .header__shrink{
+.header__shrink{
     background: #132347;
     box-shadow: 2px 2px 4px -2px #7865ff;
-} */
+}

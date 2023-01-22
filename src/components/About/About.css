@@ -1,3 +1,7 @@
+/* #perfil{
+    padding-top: 50px;
+} */
+
 .perfil__btns {
     background: #102048;
     /* background: #0f1626; */
@@ -47,8 +51,8 @@
 }
 
 .perfil__img{
-    background: #d1a249;
-    border-radius: 10px;
+    /* background: #d1a249; */
+    /* border-radius: 10px; */
     height: 185px;
 }
 

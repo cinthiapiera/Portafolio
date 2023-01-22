@@ -14,22 +14,22 @@ const Education = () => {
         </thead>
         <tbody>
             <tr>
-                <th>BBA</th>
-                <th>business studies</th>
-                <th>madam mohan</th>
-                <th>2020 - present</th>
+                <td>BBA</td>
+                <td>business studies</td>
+                <td>madam mohan</td>
+                <td>2020 - present</td>
             </tr>
             <tr>
-                <th>BBA</th>
-                <th>business studies</th>
-                <th>madam mohan</th>
-                <th>2020 - present</th>
+                <td>BBA</td>
+                <td>business studies</td>
+                <td>madam mohan</td>
+                <td>2020 - present</td>
             </tr>
             <tr>
-                <th>BBA</th>
-                <th>business studies</th>
-                <th>madam mohan</th>
-                <th>2020 - present</th>
+                <td>BBA</td>
+                <td>business studies</td>
+                <td>madam mohan</td>
+                <td>2020 - present</td>
             </tr>
         </tbody>
     </table>

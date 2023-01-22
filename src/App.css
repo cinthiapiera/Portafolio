@@ -51,3 +51,20 @@ a{
 a:hover{
   color: unset;
 }
+
+section,
+footer{
+  padding: 60px 0px;
+}
+
+/* custom scroll-bar */
+
+::-webkit-scrollbar{
+  width: 10px;
+  background: #c1ceff;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 2em;
+  background: #282f4e;
+}
