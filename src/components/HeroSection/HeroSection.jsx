@@ -22,7 +22,7 @@ const HeroSection = () => {
             <div className="hero__content">
               <p className='mb-3'>Bienvenido a mi portafolio</p>
               <h2 className='hero__title mb-4'>
-                  Soy <span ref={textRef}></span></h2>
+                Soy <span ref={textRef}></span></h2>
               <p>Mis competencias principales abarcan una amplia variedad de lenguajes de programación, bases de datos, frameworks web, herramientas de desarrollo y tecnologías relacionadas. He estado trabajando en proyectos desde pequeñas aplicaciones hasta sitios web complejos. Me esfuerzo por mantenerme al día con las últimas tendencias en tecnologías web.</p>
               <div className="mt-4 hero__btns d-flex align-items-center gap-4">
                 <button className="btn hire__btn"><a href="#a">Contrátame</a></button>
