@@ -5,6 +5,7 @@ import HeroSection from '../HeroSection/HeroSection';
 import Services from '../Services/Services';
 import Experience from '../Experience/Experience';
 import Portfolio from '../Portfolio/Portfolio';
+import Carrusel from '../Carrusel/Carrusel';
 
 const Layout = () => {
   return(
@@ -15,6 +16,7 @@ const Layout = () => {
       <Services/>
       <Experience/>
       <Portfolio/>
+      <Carrusel/>
     </>
   )  
 }

@@ -32,7 +32,7 @@ const About = () => {
                   </div>
                   <div className="perfil__content w-75">
                     {/* <h4>Cinthia Maldonado</h4> */}
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas amet quis ut modi commodi nemo incidunt! Maiores, voluptates? Aut doloremque ipsam nesciunt excepturi corporis atque labore.</p>
+                    <p>Tengo habilidades técnicas en análisis, diseño, desarrollo, implementación y mantenimiento de aplicaciones web utilizando frameworks y tecnologías PERN Stack así también en el uso de herramientas modernas de administración de proyectos y seguimiento de problemas como Trello y GitHub, aplicando metodologías ágiles como SCRUM.</p>
                     <div className="social__links">
                       <h6 className='mb-3'>Contactame por:</h6>
                       <span><a href="#f"><i class="ri-facebook-box-fill"></i></a></span>

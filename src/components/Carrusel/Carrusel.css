@@ -1,0 +1,8 @@
+.carrusel__img{
+    width: 100px;
+    margin: auto;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: transparent;
+}
