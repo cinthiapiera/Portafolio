@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 const Contact = () => {
   return (
-    <section>
+    <section id="">
       <Container>
         <Row>
           <Col lg="12">
