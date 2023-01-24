@@ -6,6 +6,7 @@ import Services from '../Services/Services';
 import Experience from '../Experience/Experience';
 import Portfolio from '../Portfolio/Portfolio';
 import Carrusel from '../Carrusel/Carrusel';
+import Contact from '../Contact/Contact';
 
 const Layout = () => {
   return(
@@ -17,6 +18,7 @@ const Layout = () => {
       <Experience/>
       <Portfolio/>
       <Carrusel/>
+      <Contact/>
     </>
   )  
 }
