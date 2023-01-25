@@ -1,5 +1,5 @@
 .skills__wrapper{
-    background: #132347;
+    background: #171f38;
     padding: 20px;
     border-radius: 10px;
 }
@@ -8,12 +8,12 @@
     height: 5px;
     width: 100%;
     position: relative;
-    background: #c1ceff;
+    background: #fff;
     z-index: 999;
 }
 
 .skill__bar-percentage{
-    background: #7865ff;
+    background: #808dad;
     width: 50%;
     height: 5px;
     position: absolute;
@@ -24,9 +24,19 @@
 }
 
 .skill__title span{
-    color: #fff;
+    color: #808dad;
 }
 
 .skill__title{
     margin-bottom: 10px;
+}
+
+/* responsive */
+@media only screen and (max-width: 992px){
+    .skill__title h6{
+        font-size: 0.8rem;
+    }
+    .skill__title span{
+        font-size: 0.7rem;
+    }
 }
