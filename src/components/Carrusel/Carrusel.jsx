@@ -14,7 +14,7 @@ import img9 from '../../assests/logo/9.png';
 
 const Carrusel = () => {
   const settings= {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 600,
     slidesToShow: 4,
@@ -30,7 +30,7 @@ const Carrusel = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: false
+          dots: true
         }
       },
       {

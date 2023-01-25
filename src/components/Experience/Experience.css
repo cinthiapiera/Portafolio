@@ -9,7 +9,7 @@
     padding: 10px 30px;
 }
 
-.single__experience::before{
+.single__experience:before{
     position: absolute;
     top: 0;
     left: 0;

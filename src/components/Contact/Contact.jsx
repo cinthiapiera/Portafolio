@@ -4,8 +4,9 @@ import { Container, Row, Col } from 'reactstrap';
 import Form from '../Form/Form';
 
 const Contact = () => {
+
   return (
-    <section id="">
+    <section id="contacto">
       <Container>
         <Row>
           <Col lg="12" className='mb-5'>
