@@ -30,19 +30,18 @@
 }
 
 .nav__item a:hover{
-  /* color: #7865ff; */
   color: #d1a249;
 }
 
 .btn{
   background: #d1a249;
-  /* background: #7865ff; */
   color: #fff;
   border: none;
   outline: none;
   border-radius: 5px;
   font-size: 0.9rem;
   padding: 7px 25px;
+  font-family: "Poppins", sans-serif;
 }
 
 .btn:hover{
@@ -60,8 +59,8 @@
 }
 
 .header__shrink{
-  background: #132347;
-  box-shadow: 2px 2px 4px -2px #7865ff;
+  background: #0f1626;
+  box-shadow: 2px 2px 4px -2px #d1a24945;
 }
 
 /* responsive */
@@ -72,7 +71,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #7765ff69;
+    background: #d1a24945;
     z-index:88888;
     display: none;
   }
@@ -83,7 +82,7 @@
     right: 0;
     width: 250px;
     height: 100%;
-    background: #132347;
+    background: #171f38;
     z-index: 999999;
     display: flex;
     flex-direction: column;
