@@ -14,7 +14,7 @@ const HeroSection = () => {
       showCursor: false,
       strings:[
         'Cinthia Maldonado',
-        'Full Stack web Developer',
+        'Full Stack Web Developer',
       ]
     })
   },[])
@@ -26,22 +26,21 @@ const HeroSection = () => {
           <Col lg='6' md='6'>
             <div className="hero__content">
               <p className='mb-3'>Bienvenido 👋 a mi portafolio</p>
-              <h2 className='hero__title mb-4'>
+              <h2 className='hero__title mb-3'>
                 Soy <span ref={textRef}></span>
               </h2>
               <p>He trabajado en proyectos desde pequeñas aplicaciones hasta sitios web complejos y estoy constantemente aprendiendo nuevas herramientas tecnológicas en tendencia.</p>
 
-              <div className="mt-5 hero__btns d-flex align-items-center gap-4">
+              <div className="mt-4 hero__btns d-flex align-items-center gap-4">
                 <button className="btn hire__btn">
-                  <a href="#a">Contrátame</a>
+                  <a href='assests\CV\Cinthia Maldonado.pdf' download='Cinthia Maldonado.pdf'>Descargar CV</a>
                 </button>
-                <button className="btn">Contactame</button>
               </div>
             </div>
           </Col>
           <Col lg='6' md='6'>
             <div className="hero__img">
-              <img src={foto} alt="" className='w-100'/>
+              <img src={foto} alt="foto-Cinthia-Maldonado" className='w-100'/>
             </div>
           </Col>
         </Row>

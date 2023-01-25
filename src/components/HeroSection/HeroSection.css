@@ -1,17 +1,19 @@
 .hire__btn{
-  background: #fff;
-  /* color: #2a7545; */
-  color: #0E1831;
+  background: #0f1626;
+  padding: 7px 25px;
+  border: 1px solid #d1a249;
+  border-radius: 5px;
+  color: #d1a249;
 }
 
 .hire__btn a{
   text-decoration: none;
   font-weight: 500;
+  color: #d1a249;
 }
 
 .hire__btn:hover a{
-  /* color: #2a7545; */
-  color: #0E1831;
+  color: #d1a249;
 }
 
 .hero__title span{
@@ -26,9 +28,6 @@
   width: 300px;
   height: 300px;
   border-radius: 10px; 
-  background: #7865ff;
-  /* background: #01d293; */
-  /* background: #d1a249; */
   margin-left: auto;
 }
 
