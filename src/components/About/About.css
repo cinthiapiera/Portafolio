@@ -1,13 +1,5 @@
-/* #perfil{
-    font-family: "Poppins", sans-serif;
-} */
-
 .perfil__btns {
-    background: #102048;
-    /* background: #0f1626; */
-    /* background: #0E1831; */
-    /* background: #2a9250; */
-    /* background: #f5f5f5; */
+    background: #171f38;
     border-radius: 10px;
 }
 
@@ -18,8 +10,9 @@
     padding: 20px;
     color: #fff;
     background: transparent;
-    border-bottom: 1px solid #d1a249;
+    border-bottom: 1px solid #d1a24945;
     border-radius: 5px 5px 0px 0px;
+    font-family: "Poppins", sans-serif;
 }
 
 .perfil__btn-active {
@@ -32,7 +25,7 @@
 }
 
 .perfil__content__wrapper {
-    background: #132347;
+    background: #171f38;
     padding: 30px;
     border-radius: 10px;
 }
@@ -42,8 +35,8 @@
 }
 
 .perfil__content p{
-    line-height: 20px;
-    font-weight: 200;
+    line-height: 30px;
+    font-weight: 300;
 }
 
 .social__links span a i{
@@ -61,4 +54,22 @@
 }
 
 /* responsive */
+@media only screen and (max-width: 992px){
+    .perfil__btn{
+        padding: 10px 25px;
+        font-size: 0.8rem;
+    }
 
+    .perfil__btns{
+        margin-bottom: 40px;
+    }
+
+    .perfil__content p{
+        font-size: 0.8rem;
+        line-height: 25px;
+
+    }
+    .perfil__img{
+        height: 102px;
+    }
+}

@@ -13,13 +13,13 @@ const About = () => {
       <Container>
         <Row>
           <Col lg='12' className='mb-5'>
-            <h2>Perfil</h2>{' '}
+            <h2>Perfil</h2>
           </Col>
           <Col lg='4' md='3'>
             <div className="perfil__btns d-flex flex-column align-items-center">
               <button className={`perfil__btn ${perfilFilter === 'PERFIL' ? 'perfil__btn-active':''}`} onClick={()=>setPerfilFilter('PERFIL')}>Perfil</button>
               <button className={`perfil__btn ${perfilFilter === 'EDUCACION' ? 'perfil__btn-active':''}`} onClick={()=>setPerfilFilter('EDUCACION')}>Educación</button>
-              <button className={`perfil__btn ${perfilFilter === 'SKILLS' ? 'perfil__btn-active':''}`} onClick={()=>setPerfilFilter('SKILLS')}>Habilidades Blandas</button>
+              <button className={`perfil__btn ${perfilFilter === 'SKILLS' ? 'perfil__btn-active':''}`} onClick={()=>setPerfilFilter('SKILLS')}>Skills</button>
               <button className={`perfil__btn ${perfilFilter === 'AWARD' ? 'perfil__btn-active':''}`} onClick={()=>setPerfilFilter('AWARD')}>Certificaciones</button>
             </div>
           </Col>
@@ -31,7 +31,6 @@ const About = () => {
                     <img src={perfil} alt="" className='w-100'/>
                   </div>
                   <div className="perfil__content w-75">
-                    {/* <h4>Cinthia Maldonado</h4> */}
                     <p>Tengo habilidades técnicas en análisis, diseño, desarrollo, implementación y mantenimiento de aplicaciones web utilizando frameworks y tecnologías PERN Stack así también en el uso de herramientas modernas de administración de proyectos y seguimiento de problemas como Trello y GitHub, aplicando metodologías ágiles como SCRUM.</p>
                     <div className="social__links">
                       <h6 className='mb-3'>Contactame por:</h6>
