@@ -1,12 +1,13 @@
 .table{
     border: none;
     border-collapse: collapse;
-    bottom: 1px solid #132347;
+    bottom: 1px solid #171f38 ;
     border-radius: 10px;
+    font-family: "Poppins", sans-serif;
 }
 
 th,td{
-    padding: 1.2rem 1rem !important;
+    padding: 1rem 1rem !important;
     font-size: 1rem;
     text-align: center;
 }
@@ -17,11 +18,19 @@ thead{
 }
 
 tr{
-    font-size: 0.9rem;
+    font-size: 0.5rem;
     color: #fff;
     font-weight: 400;
 }
 
 tr:nth-child(even){
-    background: #132347;
+    background: #171f38;
+}
+
+/* responsive */
+@media only screen and (max-width: 992px){
+    th,td{
+        font-size: 0.7rem;
+        padding: 0.8rem;
+    }
 }
