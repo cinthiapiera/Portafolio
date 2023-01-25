@@ -5,12 +5,17 @@ import { init } from 'ityped';
 import foto from '../../assests/foto.png';
 
 const HeroSection = () => {
+
   const textRef = useRef();
+  
   useEffect(()=>{
     init(textRef.current,{
       backDelay: 1500,
       showCursor: false,
-      strings:['Cinthia Maldonado','Full Stack Web Developer','Ingeniera Informática']
+      strings:[
+        'Cinthia Maldonado',
+        'Full Stack web Developer',
+      ]
     })
   },[])
 
@@ -20,12 +25,16 @@ const HeroSection = () => {
         <Row>
           <Col lg='6' md='6'>
             <div className="hero__content">
-              <p className='mb-3'>Bienvenido a mi portafolio</p>
+              <p className='mb-3'>Bienvenido 👋 a mi portafolio</p>
               <h2 className='hero__title mb-4'>
-                Soy <span ref={textRef}></span></h2>
-              <p>Hola 👋, he trabajado en proyectos desde pequeñas aplicaciones hasta sitios web complejos y estoy constantemente aprendiendo nuevas herramientas tecnológicas en tendencia.</p>
-              <div className="mt-4 hero__btns d-flex align-items-center gap-4">
-                <button className="btn hire__btn"><a href="#a">Contrátame</a></button>
+                Soy <span ref={textRef}></span>
+              </h2>
+              <p>He trabajado en proyectos desde pequeñas aplicaciones hasta sitios web complejos y estoy constantemente aprendiendo nuevas herramientas tecnológicas en tendencia.</p>
+
+              <div className="mt-5 hero__btns d-flex align-items-center gap-4">
+                <button className="btn hire__btn">
+                  <a href="#a">Contrátame</a>
+                </button>
                 <button className="btn">Contactame</button>
               </div>
             </div>

@@ -19,12 +19,16 @@
 }
 
 .hero__title{
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .hero__img{
-  width: 350px;
-  height: 350px;    
+  width: 300px;
+  height: 300px;
+  border-radius: 10px; 
+  background: #7865ff;
+  /* background: #01d293; */
+  /* background: #d1a249; */
   margin-left: auto;
 }
 
@@ -36,3 +40,35 @@
   line-height: 30px;
   font-weight: 300;
 }
+
+
+/* responsive */
+@media only screen and (max-width: 992px){
+  .hero__content{
+    width: 300px;
+    height: 300px;
+  }
+
+  .hero__content p{
+    font-size: 0.8rem;
+  }
+
+  .hero__btns button{
+    display: block;
+    padding: 5px 20px;
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  .hero__img{
+    margin: auto;
+  }
+  .hero__content{
+    margin-bottom: 50px;
+  }
+  .hero__title span{
+    font-size: 2rem;
+  }
+}
+
