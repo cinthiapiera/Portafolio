@@ -1,36 +1,36 @@
 .award__item{
-    width: 47%;
-    margin-bottom: 20px;
+  width: 47%;
+  margin-bottom: 20px;
 }
 
 .single__award{
-    background: #171f38 ;
-    padding: 20px;
-    border-radius: 5px;
-    border-bottom: 1px solid #d1a24945;
+  background: #171f38 ;
+  padding: 20px;
+  border-radius: 5px;
+  border-bottom: 1px solid #d1a24945;
 }
 
 .award__title span{
-    font-weight: 300 !important;
-    color: #fff;
-    opacity: 70% !important;
-    font-size: 0.8rem;
+  font-weight: 300 !important;
+  color: #fff;
+  opacity: 70% !important;
+  font-size: 0.8rem;
 }
 
 .award__year{
-    color: #fff;
-    margin-bottom: 15px;
+  color: #fff;
+  margin-bottom: 15px;
 }
 
 /* responsive */
 @media only screen and (max-width: 992px){
-    .award__title{
-        font-size: 0.8rem;
-    }
-    .award__title span{
-        font-size: 0.7rem;
-    }
-    .award__year{
-        font-size: 0.7rem;
-    }
+  .award__title{
+    font-size: 0.8rem;
+  }
+  .award__title span{
+    font-size: 0.7rem;
+  }
+  .award__year{
+    font-size: 0.7rem;
+  }
 }

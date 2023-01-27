@@ -1,36 +1,36 @@
 .table{
-    border: none;
-    border-collapse: collapse;
-    bottom: 1px solid #171f38 ;
-    border-radius: 10px;
-    font-family: "Poppins", sans-serif;
+  border: none;
+  border-collapse: collapse;
+  bottom: 1px solid #171f38 ;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
 }
 
 th,td{
-    padding: 1rem 1rem !important;
-    font-size: 1rem;
-    text-align: center;
+  padding: 1rem 1rem !important;
+  font-size: 1rem;
+  text-align: center;
 }
 
 thead{
-    background: #d1a249;
-    color: #fff;
+  background: #d1a249;
+  color: #fff;
 }
 
 tr{
-    font-size: 0.5rem;
-    color: #fff;
-    font-weight: 400;
+  font-size: 0.5rem;
+  color: #fff;
+  font-weight: 400;
 }
 
 tr:nth-child(even){
-    background: #171f38;
+  background: #171f38;
 }
 
 /* responsive */
 @media only screen and (max-width: 992px){
-    th,td{
-        font-size: 0.8rem;
-        padding: 0.8rem;
-    }
+  th,td{
+    font-size: 0.8rem;
+    padding: 0.8rem;
+  }
 }
