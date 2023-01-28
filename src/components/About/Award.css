@@ -10,7 +10,7 @@
   border-bottom: 1px solid #d1a24945;
 }
 
-.award__title span{
+.award__title span, a{
   font-weight: 300 !important;
   color: #fff;
   opacity: 70% !important;
@@ -27,7 +27,7 @@
   .award__title{
     font-size: 0.8rem;
   }
-  .award__title span{
+  .award__title span,a {
     font-size: 0.7rem;
   }
   .award__year{
