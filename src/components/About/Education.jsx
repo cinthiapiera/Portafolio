@@ -7,17 +7,17 @@ const Education = () => {
       <thead>
           <tr>
             <th>Grado</th>
-            <th>Hora/Creditos</th>
+            <th>Tiempo</th>
             <th>Entidad</th>
             <th>Año</th>
           </tr>
       </thead>
       <tbody>
         <tr>
+          <td>Java Developer</td>
           <td>En Formación</td>
-          <td>Developer</td>
-          <td>Oracle Next Education - Alura</td>
-          <td>2023 - Actualmente</td>
+          <td>Oracle Next Education - Alura Latam</td>
+          <td>2023 - Presente</td>
         </tr>
         <tr>
           <td>Full Stack Web Developer</td>

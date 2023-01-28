@@ -10,7 +10,7 @@
   border-bottom: 1px solid #d1a24945;
 }
 
-.award__title span, a{
+.award__title span {
   font-weight: 300 !important;
   color: #fff;
   opacity: 70% !important;
@@ -18,8 +18,13 @@
 }
 
 .award__year{
-  color: #fff;
+  color: #d1a249;
   margin-bottom: 15px;
+}
+
+.award__url{
+  color: #fff;
+  font-size: 0.8rem;
 }
 
 /* responsive */
@@ -27,10 +32,13 @@
   .award__title{
     font-size: 0.8rem;
   }
-  .award__title span,a {
+  .award__title span, a {
     font-size: 0.7rem;
   }
   .award__year{
+    font-size: 0.7rem;
+  }
+  .award__url{
     font-size: 0.7rem;
   }
 }

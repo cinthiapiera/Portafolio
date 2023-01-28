@@ -8,7 +8,7 @@ const Award = () => {
         <AwardItem 
           year='2023'
           title="Formación en Programación"
-          text='Oracle Next Education Alura Latam'
+          text='Oracle Next Education - Alura Latam'
           url='https://app.aluracursos.com/degree/certificate/e6e53eb0-9b58-4fee-a630-c860e68f3b15'
         />
       </div>
@@ -24,7 +24,7 @@ const Award = () => {
         <AwardItem 
           year='2021'
           title='Curso Design Thinking'
-          text='instituto europeo de Posgrado - IEP'
+          text='Instituto Europeo de Posgrado - IEP'
           url='https://drive.google.com/file/d/1BqgShpKp0ti7AGI51aF1wan7rG6_sLa1/view?usp=share_link'
         />
       </div>
