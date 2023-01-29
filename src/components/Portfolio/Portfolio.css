@@ -1,58 +1,45 @@
-.portfolio__top{
-    color: #7865ff;
-    margin-bottom: 15px;
+.single__service{
+    background: #171f38;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-bottom: 1px solid #d1a24945;
+    transition: 0.3s;
 }
 
-/* .portfolio__top h6{
-    color: red;
+.single__service:hover{
+  transform: translateY(-15px);
+}
+
+/* .service__icon{
+    color: #7865ff;
+    font-size: 2.2rem;
 } */
 
-.portfolio__card{
-    position: relative;
-    z-index: 90;
-    cursor: pointer;
+.services__top h6{
+  color: #d1a249;
+  margin-bottom: 15px;
 }
 
-.portfolio__img img{
-    border-radius: 5px;
+.single__service h2{
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
-.portfolio__content{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgb(0, 13, 107, 0.6), rgb(0, 13, 107, 0.6));
-    z-index: 91;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    transform: translateY(-100%);
-    opacity: 0;
-    transition: .3s;
-    border-radius: 5px;
-    cursor: pointer;
+.single__service p{
+  font-weight: 300;
+  line-height: 30px;
 }
 
-.portfolio__card:hover .portfolio__content{
-    transform: translateY(0);
-    opacity: 1;
-
-}
-
-.portfolio__content a{
-    color: #fff;
-    text-decoration: none;
-    font-size: .9rem;
-    cursor: pointer;
-}
-
-.portfolio__content h5{
-    color: #fff;
-    font-size: 1.5rem;
+/* responsive */
+@media only screen and (max-width: 992px){
+  .single__service h2{
+    font-size: 1.3rem;
     margin-bottom: 10px;
-    font-weight: 500;
+  }
+  .single__service p{
+    font-size: 0.8rem;
+    line-height: 28px;
+  }
 }
-
