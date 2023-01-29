@@ -13,26 +13,26 @@ const Contact = () => {
             <h2>Contacto</h2>
           </Col>
           <Col lg="6" md="6">
-          <div className="contact__info-container d-flex align-items-center gap-5">
+          <div className="contact__info-container d-flex align-items-center gap-4">
             <div className="single__info-box w-50">
-              <h6>Ciudad</h6>
-              <p>Lima-Perú</p>
+              <h6>Dirección</h6>
+              <p>Lima 15103 - Lima, Perú</p>
             </div>
             <div className="single__info-box w-50">
-              <h6>Teléfono</h6>
-              <p>984296197</p>
+              <h6>Email</h6>
+              <p>cinthia.maldonado@upch.pe</p>
             </div>
           </div>
-          <div className="contact__info-container d-flex align-items-center gap-5">
-            <div className="single__info-box w-50">
-              <h6>E-mail</h6>
+          {/* <div className="contact__info-container d-flex align-items-center gap-5">
+            <div className="single__info-box w-45">
+              <h6>Email</h6>
               <p>cinthia.maldonado@upch.pe</p>
             </div>
             <div className="single__info-box w-50">
               <h6>Location</h6>
               <p>Narnia 123, SMP</p>
             </div>
-          </div>
+          </div> */}
           </Col>
           <Col g="6" md="6">
             <Form/>

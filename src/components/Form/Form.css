@@ -1,6 +1,6 @@
 form{
     width: 100%;
-    background: #132347;
+    background: #171f38;
     padding: 30px;
     border-radius: 5px;
     /* border-bottom: 1px solid #7865ff;
@@ -12,7 +12,7 @@ form{
     padding: 10px 15px;
     color: #fff;
     margin-bottom: 15px;
-    background: #102048;
+    background: #171f38;
     border: none;
     outline: none;
     border-radius: 10px;
@@ -23,7 +23,7 @@ form{
     margin-top: 15px;
     padding: 7px 25px;
     font-size: .9rem;
-    background: #7865FF;
+    background: #d1a249;
     color:#fff;
     border: none;
     outline: none;

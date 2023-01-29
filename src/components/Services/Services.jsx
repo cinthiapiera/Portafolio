@@ -1,40 +1,27 @@
 import React from 'react';
 import {Container, Row, Col} from 'reactstrap';
+import img1 from '../../assests/proyecto01.png';
+import img2 from '../../assests/proyecto2.png';
 
 import './Services.css';
 
 const servicesData =[
   {
-    icon: 'ri-code-line',
-    title: 'web Design',
+    imgUrl: img1,
+    // icon: 'ri-code-line',
+    title:'SPA Pokémon',
     desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae in modi hic iste nisi, molestias maiores inventore corrupti, vero, sint ad sit.',
   },
   {
-    icon: 'ri-code-s-slash-line',
+    imgUrl: img2,
     title: 'web Development',
     desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae in modi hic iste nisi, molestias maiores inventore corrupti, vero, sint ad sit.',
   },
   {
-    icon: 'ri-qr-code-line',
+    imgUrl: img1,
     title: 'App Development',
     desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae in modi hic iste nisi, molestias maiores inventore corrupti, vero, sint ad sit.',
-  },
-  {
-    icon: 'ri-search-line',
-    title: 'SEO',
-    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae in modi hic iste nisi, molestias maiores inventore corrupti, vero, sint ad sit.',
-  },
-  {
-    icon: 'ri-landscape-line',
-    title: 'Graphics Design',
-    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae in modi hic iste nisi, molestias maiores inventore corrupti, vero, sint ad sit.',
-  },
-  {
-    icon: 'ri-gallery-line',
-    title: 'UI/UX',
-    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae in modi hic iste nisi, molestias maiores inventore corrupti, vero, sint ad sit.',
-  },
-  
+  }, 
 ]
 
 const Services = () => {
@@ -50,8 +37,10 @@ const Services = () => {
               servicesData.map((item,index)=>(
                 <Col lg='4' md='6' sm='6' key={index} className='mb-4'>
                   <div className="single__service">
-                    <span className="service__icon" >
-                      <i class={item.icon}></i></span>
+                    <img src={item.imgUrl} alt={item.title} className='w-100'/>
+                    {/* <span className="service__icon" >
+                      <i class={item.icon}></i>
+                      </span> */}
                     <h2>{item.title}</h2>
                     <p>{item.desc}</p>
                   </div>

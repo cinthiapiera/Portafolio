@@ -1,22 +1,27 @@
-/* .contact__info-container{
-
-} */
-
 .single__info-box{
-    background: #132347;
-    padding: 20px;
+    background: #171f38;
+    padding: 30px;
     border-radius: 5px;
-    border-bottom: 1px solid #7865ff;
+    border-bottom: 1px solid #d1a24945;
     margin-bottom: 35px;
 }
 
 .single__info-box p{
     font-weight: 300;
     margin-top: 10px;
-    font-size: .9rem;
+    font-size: 0.8rem;
     margin-bottom: 0;
 }
 
 .single__info-box h6{
     font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 992px){
+    .single__info-box h6{
+        font-size: 0.8rem;
+    }
+    .single__info-box p{
+        font-size: 0.8rem;
+    }
 }

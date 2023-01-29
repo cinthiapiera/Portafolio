@@ -1,9 +1,9 @@
 .single__service{
-    background: #132347;
+    background: #171f38;
     padding: 20px;
     border-radius: 5px;
     cursor: pointer;
-    border-bottom: 1px solid #7865ff;
+    border-bottom: 1px solid #d1a24945;
     transition: 0.3s;
 }
 
@@ -11,10 +11,10 @@
   transform: translateY(-15px);
 }
 
-.service__icon{
+/* .service__icon{
     color: #7865ff;
     font-size: 2.2rem;
-}
+} */
 
 .services__top h6{
   color: #7865ff;
@@ -30,4 +30,16 @@
 .single__service p{
   font-weight: 300;
   line-height: 30px;
+}
+
+/* responsive */
+@media only screen and (max-width: 992px){
+  .single__service h2{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  .single__service p{
+    font-size: 0.8rem;
+    line-height: 28px;
+  }
 }
