@@ -3,8 +3,8 @@ form{
     background: #171f38;
     padding: 30px;
     border-radius: 5px;
-    /* border-bottom: 1px solid #7865ff;
-    margin-bottom: 15px; */
+    /*  */
+    /* margin-bottom: 15px; */
 }
 
 .form__input input, .form__input textarea{
@@ -25,7 +25,7 @@ form{
     font-size: .9rem;
     background: #d1a249;
     color:#fff;
-    border: none;
+    border: #d1a249;
     outline: none;
     border-radius: 5px;
 }
