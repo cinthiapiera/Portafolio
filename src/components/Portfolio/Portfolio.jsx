@@ -6,12 +6,6 @@ import img02 from '../../assests/proyecto2.png';
 
 const portfolioData =[
   {
-    imgUrl: img01,
-    title: 'SPA Pokémon',
-    url: 'https://pi-pokemon.netlify.app/',
-    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae in modi hic iste nisi, molestias maiores inventore corrupti, vero, sint ad sit.',
-  },
-  {
     imgUrl: img02,
     title: 'E-commerce Chilly',
     url: 'https://chilly-production.up.railway.app/',
@@ -22,7 +16,13 @@ const portfolioData =[
     title: 'SPA Pokémon',
     url: 'https://pi-pokemon.netlify.app/',
     desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae in modi hic iste nisi, molestias maiores inventore corrupti, vero, sint ad sit.',
-  },
+  }
+  // {
+  //   imgUrl: img01,
+  //   title: 'SPA Pokémon',
+  //   url: 'https://pi-pokemon.netlify.app/',
+  //   desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae in modi hic iste nisi, molestias maiores inventore corrupti, vero, sint ad sit.',
+  // },
 ]
 
 const Portfolio = () => {

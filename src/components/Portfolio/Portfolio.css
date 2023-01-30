@@ -22,7 +22,7 @@
 }
 
 .single__service h2{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin-bottom: 15px;
   margin-top: 15px;
 }
@@ -35,7 +35,7 @@
 /* responsive */
 @media only screen and (max-width: 992px){
   .single__service h2{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-bottom: 10px;
   }
   .single__service p{

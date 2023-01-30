@@ -9,7 +9,8 @@
   width: 100%;
   position: relative;
   background: #fff;
-  z-index: 999;
+  /* z-index: 999; */
+  z-index: auto;
 }
 
 .skill__bar-percentage{
@@ -17,7 +18,8 @@
   width: 50%;
   height: 5px;
   position: absolute;
-  z-index: 1000;
+  /* z-index: 1000; */
+  z-index: auto;
   top: 0;
   left: 0;
   border-radius: 50px;
