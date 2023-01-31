@@ -3,7 +3,7 @@ import './Education.css';
 
 const Education = () => {
   return (
-    <div class="table-responsive">
+    <div className="table-responsive">
       <table className='table'>
         <thead>
             <tr>

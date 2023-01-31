@@ -52,7 +52,7 @@ const Experience = () => {
                 experience1Data.map((item,index)=>(
                   <div className="single__experience" key={index}>
                     <span className='experience__icon'>
-                      <i class="ri-briefcase-line"></i>
+                      <i className="ri-briefcase-line"></i>
                     </span>
                     <h6>{item.year}</h6>
                     <h5>{item.title}</h5>
@@ -68,7 +68,7 @@ const Experience = () => {
                 experience2Data.map((item,index)=>(
                   <div className="single__experience" key={index}>
                     <span className='experience__icon'>
-                      <i class="ri-briefcase-line"></i>
+                      <i className="ri-briefcase-line"></i>
                     </span>
                     <h6>{item.year}</h6>
                     <h5>{item.title}</h5>

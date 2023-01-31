@@ -39,9 +39,6 @@ const Portfolio = () => {
                 <Col lg='4' md='6' sm='6' key={index} className='mb-4'>
                   <div className="single__service">
                     <img src={item.imgUrl} alt={item.title} className='w-100'/>
-                    {/* <span className="service__icon" >
-                      <i class={item.icon}></i>
-                      </span> */}
                     <h2>{item.title}</h2>
                     <p>{item.desc}</p>
                   </div>

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className='pb-4'>
       <Container className='text-center footer'>
-        <p><i class="ri-copyright-line"></i> Copyright 2023 - Todos los Derechos Reservados <br/> Desarrollado por Cinthia Maldonado ✨</p>
+        <p><i className="ri-copyright-line"></i> Copyright 2023 - Todos los Derechos Reservados <br/> Desarrollado por Cinthia Maldonado ✨</p>
       </Container>
     </footer>
   );
