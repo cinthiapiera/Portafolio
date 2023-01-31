@@ -42,6 +42,14 @@ const HeroSection = () => {
             <div className="hero__img">
               <img src={foto} alt="foto-Cinthia-Maldonado" className='w-100'/>
             </div>
+            <div className="hero__experience d-flex align-items-center gap-3">
+              <span>
+                <i className="ri-code-view"></i>
+              </span>
+              <div className="bg-transparent">
+                <h6 className="mb-0">'Aprende, codifica, crea.' </h6>
+                </div>
+            </div>
           </Col>
         </Row>
       </Container>
