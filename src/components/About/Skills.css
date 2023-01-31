@@ -4,6 +4,11 @@
   border-radius: 10px;
 }
 
+.skills__wrapper p{
+  text-align: center;
+  color:#fff;
+}
+
 .skill__bar{
   height: 5px;
   width: 100%;
@@ -40,5 +45,8 @@
   }
   .skill__title span{
     font-size: 0.7rem;
+  }
+  .skills__wrapper p{
+    font-size: 0.8rem;
   }
 }

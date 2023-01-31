@@ -1,18 +1,18 @@
 import React from 'react';
 import './Skills.css';
 
-const frontendSkills = [
+const hardSkills = [
   {
     title: 'HTML5',
-    percentage: '75%',
+    percentage: '70%',
   },
   {
     title: 'CSS3',
-    percentage: '75%',
+    percentage: '70%',
   },
   {
     title: 'JavaScript',
-    percentage: '60%',
+    percentage: '65%',
   },
   {
     title: 'React.js',
@@ -20,7 +20,7 @@ const frontendSkills = [
   },
   {
     title: 'Redux',
-    percentage: '55%',
+    percentage: '60%',
   },
   {
     title: 'Node.js',
@@ -40,42 +40,64 @@ const frontendSkills = [
   }
 ]
 
-// const backendSkills = [
-//   {
-//     title: 'Node.js',
-//     percentage: '50%',
-//   },
-//   {
-//     title: 'Express.js',
-//     percentage: '85%',
-//   },
-//   {
-//     title: 'Sequelize',
-//     percentage: '25%',
-//   },
-//   {
-//     title: 'PostgreSQL',
-//     percentage: '95%',
-//   }
-// ]
+const softSkills = [
+  {
+    title: 'Liderazgo',
+    percentage: '85%',
+  },
+  {
+    title: 'Comunicación',
+    percentage: '90%',
+  },
+  {
+    title: 'Trabajo en equipo',
+    percentage: '80%',
+  },
+  {
+    title: 'Proactiva',
+    percentage: '85%',
+  },
+  {
+    title: 'Organización',
+    percentage: '85%',
+  },
+  {
+    title: 'Creatividad',
+    percentage: '85%',
+  },
+  {
+    title: 'Puntualiadad',
+    percentage: '90%',
+  },
+  {
+    title: 'Empatía',
+    percentage: '85%',
+  },
+  {
+    title: 'Sociable',
+    percentage: '85%',
+  }  
+]
 
 const Skills = () => {
   return (
     <div className="skills__wrapper d-flex gap-5">
-      <div className="frontend__skill w-50">
+      <div className="hard__skill w-50">
+        <p><i className="ri-user-settings-line"></i> Técnicas</p>
         {
-          frontendSkills.map((item,index)=>(
+          hardSkills.map((item,index)=>(
             <SkillItem key={index} title={item.title} percentage={item.percentage}/>
           ))
         }
       </div>
-      {/* <div className="backend__skill w-50">
+      <div className="soft__skill w-50">
+      <p><i className="ri-user-heart-line"></i> Blandas</p>
         {
-          backendSkills.map((item,index)=>(
+          softSkills.map((item,index)=>(
             <SkillItem key={index} title={item.title} percentage={item.percentage}/>
           ))
         }
-      </div> */}
+      </div>
     </div>
   )
 }
@@ -85,7 +107,7 @@ const SkillItem = ({title, percentage}) => {
     <div className="skill__data mb-3">
       <div className="skill__title d-flex align-items-center justify-content-between">
         <h6>{title}</h6>
-        <span>{percentage}</span>
+        {/* <span>{percentage}</span> */}
       </div>
       <div className="skill__bar">
         <span className="skill__bar-percentage" style={{width:`${percentage}`}}></span>
