@@ -29,7 +29,7 @@ const HeroSection = () => {
               <h2 className='hero__title mb-3'>
                 Soy <span ref={textRef}></span>
               </h2>
-              <p>He trabajado en proyectos desde pequeñas aplicaciones hasta sitios web complejos y estoy constantemente aprendiendo nuevas herramientas tecnológicas en tendencia.</p>
+              <p>He trabajado en diferentes proyectos desde pequeñas aplicaciones hasta paginas web complejas. Me gusta trabajar en equipo, aprender cosas nuevas y mejorar mis conocimientos.</p>
 
               <div className="mt-4 hero__btns d-flex align-items-center gap-4">
                 <button className="btn hire__btn">

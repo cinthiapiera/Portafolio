@@ -14,7 +14,7 @@
 }
 
 .skill__bar-percentage{
-  background: #808dad;
+  background: #d1a249;
   width: 50%;
   height: 5px;
   position: absolute;
@@ -26,7 +26,7 @@
 }
 
 .skill__title span{
-  color: #808dad;
+  color: #d1a249;
 }
 
 .skill__title{
