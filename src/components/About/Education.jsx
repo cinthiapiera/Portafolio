@@ -28,7 +28,7 @@ const Education = () => {
           </tr>
           <tr>
             <td>Ingeniería Informática</td>
-            <td>250 C.</td>
+            <td>175 C.</td>
             <td>Universidad Peruana Cayetano Heredia</td>
             <td>2015 - 2020</td>
           </tr>
