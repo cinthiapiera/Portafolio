@@ -15,7 +15,7 @@ const hardSkills = [
     percentage: '65%',
   },
   {
-    title: 'React.js',
+    title: 'React',
     percentage: '65%',
   },
   {
@@ -27,7 +27,7 @@ const hardSkills = [
     percentage: '60%',
   },
   {
-    title: 'Express.js',
+    title: 'Express',
     percentage: '65%',
   },
   {
@@ -43,15 +43,15 @@ const hardSkills = [
 const softSkills = [
   {
     title: 'Liderazgo',
-    percentage: '85%',
+    percentage: '80%',
   },
   {
     title: 'Comunicación',
-    percentage: '90%',
+    percentage: '80%',
   },
   {
     title: 'Trabajo en equipo',
-    percentage: '80%',
+    percentage: '85%',
   },
   {
     title: 'Proactiva',
@@ -71,7 +71,7 @@ const softSkills = [
   },
   {
     title: 'Empatía',
-    percentage: '85%',
+    percentage: '80%',
   },
   {
     title: 'Sociable',

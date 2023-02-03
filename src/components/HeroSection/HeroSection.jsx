@@ -25,11 +25,11 @@ const HeroSection = () => {
         <Row>
           <Col lg='6' md='6'>
             <div className="hero__content">
-              <p className='mb-3'>Bienvenido 👋 a mi portafolio</p>
+              <p className='mb-3'>¡Hola!👋, bienvenido a mi portafolio </p>
               <h2 className='hero__title mb-3'>
                 Soy <span ref={textRef}></span>
               </h2>
-              <p>He trabajado en diferentes proyectos desde pequeñas aplicaciones hasta paginas web complejas. Me gusta trabajar en equipo, aprender cosas nuevas y mejorar mis conocimientos.</p>
+              <p>Descubre mis trabajos recientes, habilidades y experiencia laboral. Si estás buscando una desarrolladora web para tus próximos proyectos, estoy aquí para ayudarte. Revisa mi portafolio y contáctame para más detalles.</p>
 
               <div className="mt-4 hero__btns d-flex align-items-center gap-4">
                 <button className="btn hire__btn">
@@ -47,7 +47,7 @@ const HeroSection = () => {
                 <i className="ri-code-view"></i>
               </span>
               <div className="bg-transparent">
-                <h6 className="mb-0">'Aprende, codifica, crea.' </h6>
+                <h6 className="mb-0">'Aprende, codifica, crea' </h6>
                 </div>
             </div>
           </Col>

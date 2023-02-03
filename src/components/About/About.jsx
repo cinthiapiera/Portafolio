@@ -17,7 +17,7 @@ const About = () => {
           </Col>
           <Col lg='4' md='3'>
             <div className="perfil__btns d-flex flex-column align-items-center">
-              <button className={`perfil__btn ${perfilFilter === 'PERFIL' ? 'perfil__btn-active':''}`} onClick={()=>setPerfilFilter('PERFIL')}>Acerca de mi</button>
+              <button className={`perfil__btn ${perfilFilter === 'PERFIL' ? 'perfil__btn-active':''}`} onClick={()=>setPerfilFilter('PERFIL')}>Acerca de mí</button>
               <button className={`perfil__btn ${perfilFilter === 'EDUCACION' ? 'perfil__btn-active':''}`} onClick={()=>setPerfilFilter('EDUCACION')}>Educación</button>
               <button className={`perfil__btn ${perfilFilter === 'SKILLS' ? 'perfil__btn-active':''}`} onClick={()=>setPerfilFilter('SKILLS')}>Habilidades</button>
               <button className={`perfil__btn ${perfilFilter === 'AWARD' ? 'perfil__btn-active':''}`} onClick={()=>setPerfilFilter('AWARD')}>Certificaciones</button>
@@ -31,7 +31,8 @@ const About = () => {
                     <img src={perfil} alt="" className='w-100'/>
                   </div>
                   <div className="perfil__content w-75">
-                    <p>Como Full Stack Developer, tengo experiencia en programación web, bases de datos, diseño y desarrollo. Puedo trabajar tanto en el lado del servidor como en el lado del cliente. Utilizo herramientas de desarrollo como Git y GitHub. Para la administración de proyectos me gusta usar Trello o Miro, aplicando metodologías ágiles como SCRUM.</p>
+                    <p>Mi pasión por el desarrollo web comenzó cuando descubrí que podía combinar mis conocimientos en informática con mi habilidad para resolver problemas en un solo trabajo. Creando soluciones digitales tanto creativas como funcionales, ayudando a las personas y a las empresas.</p>
+                    <p>Como programadora, puedo desempeñarme tanto en el lado del cliente como en el lado del servidor, permitiéndome tener una visión completa de los proyectos en los que trabajo. Además, siempre estoy buscando nuevas formas de mejorar mis habilidades y estar al día con las últimas tendencias tecnológicas en desarrollo web.</p>
                     <div className="social__links">
                       <h6 className='mb-3'>Contactame por:</h6>
                       <span><a href="https://www.facebook.com/Cinthia.Maldonado.R/"><i className="ri-facebook-box-fill"></i></a></span>
