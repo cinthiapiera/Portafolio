@@ -34,7 +34,7 @@
   color: #d1a249;
 }
 
-.btn{
+/* .btn{
   background: #d1a249;
   color: #fff;
   border: none;
@@ -47,6 +47,15 @@
 
 .btn:hover{
   color: #fff;
+} */
+
+.social__links span a i{
+    color: #d1a249;
+    font-size: 1.5rem;
+}
+
+.social__links span{
+    margin-right: 10px;
 }
 
 .mobile__menu i{
@@ -99,7 +108,7 @@
     display: block;
   }
 
-  .btn{
+  .social__links{
     display: none;
   }
 

@@ -39,18 +39,10 @@
     font-weight: 300;
 }
 
-.social__links span a i{
-    color: #d1a249;
-}
 
 .perfil__img{
     height: 185px;
 }
-
-.social__links span{
-    margin-right: 10px;
-}
-
 /* responsive */
 @media only screen and (max-width: 992px){
     .perfil__btn{

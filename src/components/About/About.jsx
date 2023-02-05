@@ -31,14 +31,8 @@ const About = () => {
                     <img src={perfil} alt="" className='w-100'/>
                   </div>
                   <div className="perfil__content w-75">
-                    <p>Mi pasión por el desarrollo web comenzó cuando descubrí que podía combinar mis conocimientos en informática con mi habilidad para resolver problemas en un solo trabajo. Creando soluciones digitales tanto creativas como funcionales, ayudando a las personas y a las empresas.</p>
+                    <p>Mi interés por el desarrollo web comenzó cuando descubrí que podía combinar mis conocimientos en informática con mi habilidad para resolver problemas en un solo trabajo. Creando soluciones digitales tanto creativas como funcionales, ayudando a las personas y a las empresas.</p>
                     <p>Como programadora, puedo desempeñarme tanto en el lado del cliente como en el lado del servidor, permitiéndome tener una visión completa de los proyectos en los que trabajo. Además, siempre estoy buscando nuevas formas de mejorar mis habilidades y estar al día con las últimas tendencias tecnológicas en desarrollo web.</p>
-                    <div className="social__links">
-                      <h6 className='mb-3'>Contactame por:</h6>
-                      <span><a href="https://www.facebook.com/Cinthia.Maldonado.R/"><i className="ri-facebook-box-fill"></i></a></span>
-                      <span><a href="https://github.com/cinthiapiera"><i className="ri-github-line"></i></a></span>
-                      <span><a href="https://www.linkedin.com/in/cinthia-maldonado-rafael/"><i className="ri-linkedin-box-fill"></i></a></span>
-                    </div>
                   </div>
             </div>
             }

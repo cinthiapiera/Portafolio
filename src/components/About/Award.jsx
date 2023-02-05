@@ -47,10 +47,10 @@ const AwardItem = ({year, title, text, url}) => {
       <h6 className="award__title">
         {title}<br></br>
         <span>{text}<br></br>
-        <a href={url} className="award__url">Mostrar credencial </a><i className="ri-external-link-line"></i></span>
+        <a href={url} className="award__url" target="_blank" rel="noopener noreferrer">Mostrar credencial </a><i className="ri-external-link-line"></i></span>
       </h6>
     </div>
   )
 }
 
-export default Award
+export default Award;

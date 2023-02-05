@@ -73,7 +73,11 @@ const Header = () => {
             </ul>
           </div>
           <div className="nav__right d-flex align-items-center gap-4">
-            <button className="btn">Let's Talk</button>
+            <div className="social__links">
+                <span><a href="https://www.facebook.com/Cinthia.Maldonado.R/" target="_blank" rel="noopener noreferrer"><i className="ri-facebook-box-fill"></i></a></span>
+                <span><a href="https://github.com/cinthiapiera" target="_blank" rel="noopener noreferrer"><i className="ri-github-line"></i></a></span>
+                <span><a href="https://www.linkedin.com/in/cinthia-maldonado-rafael/" target="_blank" rel="noopener noreferrer"><i className="ri-linkedin-box-fill"></i></a></span>
+            </div>
             <span className="mobile__menu">
               <i className="ri-menu-5-line" onClick={menuToggle}></i>
             </span>
