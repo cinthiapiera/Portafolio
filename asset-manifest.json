@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portafolio/static/css/main.c2fe0f4a.css",
-    "main.js": "/Portafolio/static/js/main.de384cca.js",
+    "main.js": "/Portafolio/static/js/main.12c69b21.js",
     "static/js/787.02a4424f.chunk.js": "/Portafolio/static/js/787.02a4424f.chunk.js",
     "static/media/proyecto2.png": "/Portafolio/static/media/proyecto2.ab731d36151a501af64f.png",
     "static/media/proyecto1.png": "/Portafolio/static/media/proyecto1.a837e3d0a453e9e6dbf3.png",
@@ -11,6 +11,7 @@
     "static/media/perfil.png": "/Portafolio/static/media/perfil.800e949c47e53475be2d.png",
     "static/media/foto.png": "/Portafolio/static/media/foto.38b0a1e282bb30a21e9a.png",
     "static/media/remixicon.woff?t=1590207869815": "/Portafolio/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/CinthiaMaldonadoCV.pdf": "/Portafolio/static/media/CinthiaMaldonadoCV.5621ff3b024250bccef9.pdf",
     "static/media/remixicon.woff2?t=1590207869815": "/Portafolio/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
     "static/media/8.png": "/Portafolio/static/media/8.73ec0842328bef6bd2cc.png",
     "static/media/9.png": "/Portafolio/static/media/9.1f22bf99ea8c073a4056.png",
@@ -26,11 +27,11 @@
     "static/media/slick.woff": "/Portafolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Portafolio/index.html",
     "main.c2fe0f4a.css.map": "/Portafolio/static/css/main.c2fe0f4a.css.map",
-    "main.de384cca.js.map": "/Portafolio/static/js/main.de384cca.js.map",
+    "main.12c69b21.js.map": "/Portafolio/static/js/main.12c69b21.js.map",
     "787.02a4424f.chunk.js.map": "/Portafolio/static/js/787.02a4424f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2fe0f4a.css",
-    "static/js/main.de384cca.js"
+    "static/js/main.12c69b21.js"
   ]
 }
