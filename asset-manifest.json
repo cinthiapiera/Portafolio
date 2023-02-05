@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Portafolio/static/css/main.c2fe0f4a.css",
+    "main.js": "/Portafolio/static/js/main.0f226a79.js",
+    "static/js/787.02a4424f.chunk.js": "/Portafolio/static/js/787.02a4424f.chunk.js",
+    "static/media/proyecto2.png": "/Portafolio/static/media/proyecto2.ab731d36151a501af64f.png",
+    "static/media/proyecto01.png": "/Portafolio/static/media/proyecto01.a837e3d0a453e9e6dbf3.png",
+    "static/media/remixicon.svg?t=1590207869815": "/Portafolio/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/remixicon.eot?t=1590207869815": "/Portafolio/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/Portafolio/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/perfil.png": "/Portafolio/static/media/perfil.800e949c47e53475be2d.png",
+    "static/media/foto.png": "/Portafolio/static/media/foto.38b0a1e282bb30a21e9a.png",
+    "static/media/remixicon.woff?t=1590207869815": "/Portafolio/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/remixicon.woff2?t=1590207869815": "/Portafolio/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/8.png": "/Portafolio/static/media/8.73ec0842328bef6bd2cc.png",
+    "static/media/9.png": "/Portafolio/static/media/9.1f22bf99ea8c073a4056.png",
+    "static/media/5.png": "/Portafolio/static/media/5.8a62c4812e5a812a56a0.png",
+    "static/media/4.png": "/Portafolio/static/media/4.1bc589942734eda54eca.png",
+    "static/media/7.png": "/Portafolio/static/media/7.c5c671cc90746142ff6c.png",
+    "static/media/2.png": "/Portafolio/static/media/2.02e105d5e89300ad10fd.png",
+    "static/media/1.png": "/Portafolio/static/media/1.ba86cf8738abae0705c1.png",
+    "static/media/3.png": "/Portafolio/static/media/3.dc03d33c02a810758cef.png",
+    "static/media/slick.svg": "/Portafolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Portafolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Portafolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Portafolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Portafolio/index.html",
+    "main.c2fe0f4a.css.map": "/Portafolio/static/css/main.c2fe0f4a.css.map",
+    "main.0f226a79.js.map": "/Portafolio/static/js/main.0f226a79.js.map",
+    "787.02a4424f.chunk.js.map": "/Portafolio/static/js/787.02a4424f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2fe0f4a.css",
+    "static/js/main.0f226a79.js"
+  ]
+}
