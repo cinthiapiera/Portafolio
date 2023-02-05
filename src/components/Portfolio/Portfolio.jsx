@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import './Portfolio.css';
-import img01 from '../../assests/proyecto01.png';
+import img01 from '../../assests/proyecto1.png';
 import img02 from '../../assests/proyecto2.png';
 
 const portfolioData =[
@@ -17,12 +17,6 @@ const portfolioData =[
     url: 'https://pi-pokemon.netlify.app/',
     desc: 'Aplicación de Pokémon con página de inicio con una lista de 150 cards de personajes con paginación, búsqueda, filtros, ordenamiento, sección de detalles, y sección de creación con formulario controlado y validaciones. Extra: modelo responsive',
   }
-  // {
-  //   imgUrl: img01,
-  //   title: 'SPA Pokémon',
-  //   url: 'https://pi-pokemon.netlify.app/',
-  //   desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae in modi hic iste nisi, molestias maiores inventore corrupti, vero, sint ad sit.',
-  // },
 ]
 
 const Portfolio = () => {

@@ -33,7 +33,7 @@ const HeroSection = () => {
 
               <div className="mt-4 hero__btns d-flex align-items-center gap-4">
                 <button className="btn hire__btn">
-                  <a href='assests\CV\Cinthia Maldonado.pdf' download='Cinthia Maldonado.pdf'>Descargar CV</a>
+                  <a href='assests\CV\Cinthia Maldonado_CV.pdf' download='Cinthia Maldonado_CV.pdf'>Descargar CV</a>
                 </button>
               </div>
             </div>
