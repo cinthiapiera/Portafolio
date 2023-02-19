@@ -87,6 +87,13 @@
     padding: 5px 20px;
     font-size: 0.8rem;
   }
+  .hero__experience {
+    width: 160px;
+  }
+
+  .hero__experience h6 {
+    font-size: 0.7rem;
+  }
 }
 
 @media only screen and (max-width: 576px){

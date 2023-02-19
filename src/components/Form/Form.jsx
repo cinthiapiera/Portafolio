@@ -14,6 +14,7 @@ const Form = () => {
       .then((result) => {
           alert('Se ha enviado correctamente el email')
           console.log(result.text);
+          form.current.reset();
       }, (error) => {
           console.log(error.text);
       });
