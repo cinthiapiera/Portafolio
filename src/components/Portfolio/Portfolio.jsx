@@ -3,6 +3,8 @@ import { Container, Row, Col } from 'reactstrap';
 import './Portfolio.css';
 import img01 from '../../assests/proyecto1.png';
 import img02 from '../../assests/proyecto2.png';
+import img03 from '../../assests/proyecto3.png';
+import img04 from '../../assests/proyecto4.png';
 
 const portfolioData =[
   {
@@ -15,7 +17,19 @@ const portfolioData =[
     imgUrl: img01,
     title: 'SPA Pokémon',
     url: 'https://pi-pokemon.netlify.app/',
-    desc: 'Aplicación de Pokémon con página de inicio con una lista de 150 cards de personajes con paginación, búsqueda, filtros, ordenamiento, sección de detalles, y sección de creación con formulario controlado y validaciones. Extra: modelo responsive',
+    desc: 'Aplicación de Pokémon con página de inicio con una lista de 150 cards de personajes con paginación, búsqueda, filtros, ordenamiento, sección de detalles, y sección de creación con formulario controlado y validaciones. Modelo responsive.',
+  },
+  {
+    imgUrl: img03,
+    title: 'Portafolio',
+    url: 'https://cinthiapiera.github.io/Portafolio/',
+    desc: 'Sitio web personal que funciona como portafolio para mostrar habilidades y experiencia. Cuenta con una estructura clara y bien organizada, con secciones que ofrecen información detallada, proyectos destacados y datos de contacto. Modelo responsive.',
+  },
+  {
+    imgUrl: img04,
+    title: 'Encriptador de texto',
+    url: 'https://cinthiapiera.github.io/encriptador/',
+    desc: 'Aplicación que permite encriptar y desencriptar mensajes para proteger la privacidad de la información. Además, la interfaz es clara e intuitiva sin la necesidad de conocimientos técnicos avanzados. Modelo responsive. ',
   }
 ]
 
