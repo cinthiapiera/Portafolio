@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/Portafolio/static/css/main.c2fe0f4a.css",
-    "main.js": "/Portafolio/static/js/main.12c69b21.js",
+    "main.js": "/Portafolio/static/js/main.69ea6772.js",
     "static/js/787.02a4424f.chunk.js": "/Portafolio/static/js/787.02a4424f.chunk.js",
     "static/media/proyecto2.png": "/Portafolio/static/media/proyecto2.ab731d36151a501af64f.png",
     "static/media/proyecto1.png": "/Portafolio/static/media/proyecto1.a837e3d0a453e9e6dbf3.png",
+    "static/media/proyecto4.png": "/Portafolio/static/media/proyecto4.73991e6790cae0dc6d59.png",
+    "static/media/proyecto3.png": "/Portafolio/static/media/proyecto3.a02421c3db661e2a93ec.png",
     "static/media/remixicon.svg?t=1590207869815": "/Portafolio/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/remixicon.eot?t=1590207869815": "/Portafolio/static/media/remixicon.5cb99e6cba5a4619063f.eot",
     "static/media/remixicon.ttf?t=1590207869815": "/Portafolio/static/media/remixicon.f2616f597cf98f38d234.ttf",
@@ -27,11 +29,11 @@
     "static/media/slick.woff": "/Portafolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Portafolio/index.html",
     "main.c2fe0f4a.css.map": "/Portafolio/static/css/main.c2fe0f4a.css.map",
-    "main.12c69b21.js.map": "/Portafolio/static/js/main.12c69b21.js.map",
+    "main.69ea6772.js.map": "/Portafolio/static/js/main.69ea6772.js.map",
     "787.02a4424f.chunk.js.map": "/Portafolio/static/js/787.02a4424f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2fe0f4a.css",
-    "static/js/main.12c69b21.js"
+    "static/js/main.69ea6772.js"
   ]
 }
