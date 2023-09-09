@@ -21,13 +21,13 @@ const portfolioData =[
     desc: 'Plataforma en línea para la venta y armado de PC con características como UI amigable, catálogo de productos, carrito de compras, armado personalizado, pasarela de pago, chatbot y dashboard para administrador y usuarios registrados.',
   },
   {
-    imgUrl: img03,
+    imgUrl: img04,
     title: 'Portafolio',
     url: 'https://cinthiapiera.github.io/Portafolio/',
     desc: 'Sitio web personal que funciona como portafolio para mostrar habilidades y experiencia. Cuenta con una estructura clara y bien organizada, con secciones que ofrecen información detallada, proyectos destacados y datos de contacto. Modelo responsive.',
   },
   {
-    imgUrl: img04,
+    imgUrl: img03,
     title: 'Encriptador de texto',
     url: 'https://cinthiapiera.github.io/encriptador/',
     desc: 'Aplicación que permite encriptar y desencriptar mensajes para proteger la privacidad de la información. Además, la interfaz es clara e intuitiva sin la necesidad de conocimientos técnicos avanzados. Modelo responsive. ',
