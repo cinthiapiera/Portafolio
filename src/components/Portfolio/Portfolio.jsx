@@ -17,7 +17,7 @@ const portfolioData =[
   {
     imgUrl: img02,
     title: 'E-commerce Chilly',
-    url: 'https://chilly-production.up.railway.app/',
+    url: 'https://ecommerce-chilly.github.io/PF-Chilly/',
     desc: 'Plataforma en línea para la venta y armado de PC con características como UI amigable, catálogo de productos, carrito de compras, armado personalizado, pasarela de pago, chatbot y dashboard para administrador y usuarios registrados.',
   },
   {
