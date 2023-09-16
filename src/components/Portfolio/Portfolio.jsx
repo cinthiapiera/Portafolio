@@ -12,7 +12,7 @@ const portfolioData =[
     imgUrl: img01,
     title: 'SPA Pokémon',
     url: 'https://pi-pokemon.netlify.app/',
-    desc: 'Aplicación de Pokémon con página de inicio con una lista de 150 cards de personajes con paginación, búsqueda, filtros, ordenamiento, sección de detalles, y sección de creación con formulario controlado y validaciones. Modelo responsive.',
+    desc: 'Aplicación de Pokémon con página de inicio con una lista de 150 cards de personajes con paginación, búsqueda, filtros, ordenamiento, sección de detalles, y sección de creación con formulario controlado y validaciones. Modelo responsivo.',
   },
   {
     imgUrl: img02,
@@ -24,19 +24,19 @@ const portfolioData =[
     imgUrl: img04,
     title: 'Portafolio',
     url: 'https://cinthiapiera.github.io/Portafolio/',
-    desc: 'Sitio web personal que funciona como portafolio para mostrar habilidades y experiencia. Cuenta con una estructura clara y bien organizada, con secciones que ofrecen información detallada, proyectos destacados y datos de contacto. Modelo responsive.',
+    desc: 'Sitio web personal que funciona como portafolio para mostrar habilidades y experiencia. Cuenta con una estructura clara y bien organizada, con secciones que ofrecen información detallada, proyectos destacados y datos de contacto. Modelo responsivo.',
   },
   {
     imgUrl: img03,
     title: 'Encriptador de texto',
     url: 'https://cinthiapiera.github.io/encriptador/',
-    desc: 'Aplicación que permite encriptar y desencriptar mensajes para proteger la privacidad de la información. Además, la interfaz es clara e intuitiva sin la necesidad de conocimientos técnicos avanzados. Modelo responsive. ',
+    desc: 'Aplicación que permite encriptar y desencriptar mensajes para proteger la privacidad de la información. Además, la interfaz es clara e intuitiva sin la necesidad de conocimientos técnicos avanzados. Modelo responsivo. ',
   },
   {
     imgUrl: img05,
     title: 'Consultorio Dental',
     url: 'https://drcarlosmaldonado.site/',
-    desc: 'Landing page de odontología que destaca la amplia experiencia del profesional, ofrece una variedad de servicios dentales, testimonios de pacientes satisfechos y datos de contacto del consultorio. Modelo responsive.',
+    desc: 'Landing page de odontología que destaca la amplia experiencia del profesional, ofrece una variedad de servicios dentales, testimonios de pacientes satisfechos y datos de contacto del consultorio. Modo nocturno/diurno. Modelo responsivo.',
   },
 ]
 

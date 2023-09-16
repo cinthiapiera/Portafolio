@@ -3,7 +3,7 @@ import './HeroSection.css';
 import { Container, Row, Col } from 'reactstrap';
 import { init } from 'ityped';
 import foto from '../../assests/foto.png';
-import pdf from '../../assests/CV/CinthiaMaldonadoCV.pdf';
+import pdf from '../../assests/CV/CinthiaMaldonado_CV.pdf';
 
 const HeroSection = () => {
 
@@ -34,7 +34,7 @@ const HeroSection = () => {
 
               <div className="mt-4 hero__btns d-flex align-items-center gap-4">
                 <button className="btn hire__btn">
-                  <a href={pdf} download='CinthiaMaldonadoCV.pdf'>Descargar CV</a>
+                  <a href={pdf} download='CinthiaMaldonado_CV.pdf'>Descargar CV</a>
                 </button>
               </div>
             </div>

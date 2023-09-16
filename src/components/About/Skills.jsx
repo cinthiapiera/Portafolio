@@ -31,52 +31,92 @@ const hardSkills = [
     percentage: '65%',
   },
   {
-    title: 'Sequelize',
+    title: 'Sequelize (ORM)',
     percentage: '65%',
   },
   {
+    title: 'Java POO',
+    percentage: '45%',
+  },
+  {
+    title: 'Spring Boot',
+    percentage: '40%',
+  },
+  {
     title: 'PostgreSQL',
-    percentage: '70%',
+    percentage: '50%',
+  },
+  {
+    title: 'MySQL',
+    percentage: '40%',
+  },
+  {
+    title: 'H2',
+    percentage: '50%',
+  },
+  {
+    title: 'Git',
+    percentage: '50%',
+  },
+  {
+    title: 'Github',
+    percentage: '50%',
+  },
+  {
+    title: 'Eclipse',
+    percentage: '50%',
+  },
+  {
+    title: 'IntelliJ IDEA',
+    percentage: '50%',
+  },
+  {
+    title: 'Visual Studio Code',
+    percentage: '50%',
   }
 ]
 
 const softSkills = [
   {
-    title: 'Liderazgo',
-    percentage: '80%',
+    title: 'Puntualidad',
+    percentage: '90%',
   },
   {
-    title: 'Comunicación',
-    percentage: '80%',
+    title: 'Confianza',
+    percentage: '85%',
+  },
+  {
+    title: 'Organización',
+    percentage: '90%',
+  },
+  {
+    title: 'Empatía',
+    percentage: '85%',
+  },
+  {
+    title: 'Sociable',
+    percentage: '85%',
   },
   {
     title: 'Trabajo en equipo',
-    percentage: '85%',
+    percentage: '90%',
+  },
+  {
+    title: 'Comunicación',
+    percentage: '90%',
   },
   {
     title: 'Proactiva',
     percentage: '85%',
   },
   {
-    title: 'Organización',
+    title: 'Liderazgo',
     percentage: '85%',
   },
   {
     title: 'Creatividad',
-    percentage: '85%',
-  },
-  {
-    title: 'Puntualiadad',
     percentage: '90%',
-  },
-  {
-    title: 'Empatía',
-    percentage: '80%',
-  },
-  {
-    title: 'Sociable',
-    percentage: '85%',
-  }  
+  } 
 ]
 
 const Skills = () => {

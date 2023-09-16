@@ -13,8 +13,8 @@ const Education = () => {
         </thead>
         <tbody>
           <tr>
-            <td>Java Developer | cursando</td>
-            <td>Oracle Next Education - Alura Latam</td>
+            <td>Programador Junior Java</td>
+            <td>Programa Oracle Next Education - Alura Latam</td>
           </tr>
           <tr>
             <td>Full Stack Web Developer</td>

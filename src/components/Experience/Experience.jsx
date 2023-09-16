@@ -4,38 +4,39 @@ import './Experience.css';
 
 const experience1Data = [
   {
+    year: 'Jun, 2023 - Ago, 2023',
+    title: 'Desarrollador Front-end y Marketing Digital - Freelance, Lima, Perú',
+    desc: 'Creación, desarrollo integral de la identidad de la marca y estrategias de marketing en redes sociales. Diseño, gestión de una landing page y supervisión del despliegue en línea para un consultorio dental.'
+  },
+  {
     year: 'Ago, 2022 - Oct, 2022',
-    title: 'Full Stack Teaching Assistant, Henry Bootcamp, Buenos Aires, Argentina.',
+    title: 'Full Stack Teaching Assistant - Henry Bootcamp, Buenos Aires, Argentina',
     desc: 'Coordinar a un grupo de estudiantes para lograr la integración al grupo de estudio. Orientar a los estudiantes en los primeros pasos de la cursada. Asistir la resolución de ejercicios y promover la colaboración grupal (Pair Programming). Proponer ideas para la mejora de los procesos del Bootcamp.'
   },
   {
     year: 'Ene, 2022 - Mar, 2022',
-    title: 'Asesoramiento Académico, Freelance, Lima, Perú',
-    desc: 'Asesoramiento académico grupal teórico-práctica no presencial en la asignatura "Introduccion a la computación". Desarrollar la capacidad de abstracción y plantear soluciones a problemas de una manera lógica y algorítmica en un lenguaje de programación orientado a objetos con Python.'
+    title: 'Asesoramiento Académico - Freelance, Lima, Perú',
+    desc: 'Asesoramiento académico grupal teórico-práctico no presencial en la asignatura de computación, promoviendo la abstracción y resolución lógica de problemas en Python.'
   },
-  {
-    year: 'Mayo, 2021 - Nov, 2021',
-    title: 'Desarrolladora web y Coordinadora  - CISAN 2021, PRISMA ONG y Universidad Peruana Cayetano Heredia FACIEN, Lima, Perú',
-    desc: 'Diseño, desarrollo, implementación y mantenimiento de landing page (CMS: Joomla) del I Congreso Internacional de Seguridad Alimentaria Nutricional 2021. Diseño gráfico, edición de videos, marketing del pre congreso y congreso. Administración y soporte logístico en la base de datos. Coordinación y organización en las sesiones en vivo (ZOOM - Meet).'
-  },
+  
 ]
 
 const experience2Data = [
   {
+    year: 'May, 2021 - Nov, 2021',
+    title: 'Desarrollador web y Coordinadora CISAN - UPCH | PRISMA ONG, Lima, Perú',
+    desc: 'Diseño, desarrollo, implementación y mantenimiento de landing page del I Congreso Internacional de Seguridad Alimentaria Nutricional 2021. Diseño gráfico, edición de videos, marketing del pre congreso y congreso. Administración de la base de datos, y coordinación de sesiones en vivo (ZOOM - Meet).'
+  },
+  {
     year: 'Abr, 2017 - Abr, 2021',
-    title: 'Web Máster FACIEN, Universidad Peruana Cayetano Heredia, Lima, Perú',
-    desc: 'Desarrollo, implementación y mantenimiento de la página web y Web Máster de la Facultad de Ciencias y Filosofía de la UPCH. Sub coordinación en la Unidad de Fidelización Estudiantil y Gestor de redes sociales en Unidad de Imagen. Coordinación del Programa de nivelación universitario (Ciclo Alpha).'
+    title: 'Web Máster en la  Facultad de Ciencias y Filosofía - UPCH, Lima, Perú',
+    desc: 'Desarrollo, implementación y mantenimiento del sitio web FACIEN. Sub coordinación en la Unidad de Fidelización Estudiantil y gestión de redes sociales en la Unidad de Imagen. Coordinación del Programa de nivelación universitario (Ciclo Alpha).'
   },
   {
     year: 'Mar, 2014 - Feb, 2017',
-    title: 'Asistente en el Departamento de Ciencias Exactas (Sección Física, Informática y Matemática), Universidad Peruana Cayetano Heredia, Lima, Perú',
-    desc: 'Consultas y resolución de las prácticas de laboratorio y clases teóricas en el aula interactiva. Revisión y calificación de tareas, proyectos, cuestionarios, participación en clases, y reporte semanales de los estudiantes al Docente Coordinador.'
-  },
-  // {
-  //   year: '2020 -2021',
-  //   title: 'Sr.Devloper',
-  //   desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ex illum quis! Nemo, blanditiis voluptatem illum, et esse dolores iure cum natus.'
-  // },
+    title: 'Asistente en el Departamento de Ciencias Exactas - UPCH, Lima, Perú',
+    desc: 'Consultas y resolución de las prácticas de laboratorio y clases teóricas. Revisión y calificación de tareas, proyectos, cuestionarios, participación activa en clases, y reportes semanales a los Docentes coordinadores.'
+  }
 ]
 
 const Experience = () => {
