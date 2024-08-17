@@ -35,7 +35,7 @@ const portfolioData =[
   {
     imgUrl: img05,
     title: 'Consultorio Dental',
-    url: 'https://drcarlosmaldonado.site/',
+    url: 'https://cinthiapiera.github.io/dental/',
     desc: 'Landing page de odontología que destaca la amplia experiencia del profesional, ofrece una variedad de servicios dentales, testimonios de pacientes satisfechos y datos de contacto del consultorio. Modo nocturno/diurno. Modelo responsivo.',
   },
 ]
